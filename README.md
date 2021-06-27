@@ -8,7 +8,10 @@ Create node js Web App -> Create a Dockerfile -> Build Image from Dockerfile -> 
 
 # Running The App
 
-You can straightaway pull the project and build with 
+# You can straightaway pull the project and build with 
 
-# docker build -t node/server .
-# sudo docker run -p 5000:8080 node/server
+#docker build -t node/server .
+#sudo docker run -p 8080:8080 node/server
+
+
+Open http://localhost:8080/ in your browser to see the web app running. Feel free to modify the code and turn it around to produce something great out of it.
